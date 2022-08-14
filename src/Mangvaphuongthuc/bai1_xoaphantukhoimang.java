@@ -23,7 +23,7 @@ public class bai1_xoaphantukhoimang {
             size = Scanner.nextInt();
         } while (size > 20);
 
-        int array[] = new int[size];
+         int array[] = new int[size];
 
         for (int i = 0; i < size; i++) {
             System.out.print(" Nhập phần tử thứ " + (i + 1));

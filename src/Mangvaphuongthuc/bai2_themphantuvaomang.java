@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class bai2_themphantuvaomang {
     public static void sx(int x,int array[]){
-        for (int i = x ; i < array.length-1; i ++){
+        for (int i = array.length-2 ; i >= x; i --){
 
             array[i+1]=array[i];
 
