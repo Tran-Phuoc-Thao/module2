@@ -2,7 +2,7 @@ package AbstractClassInterface;
 
 public class Square2 {
     public static void main(String[] args) {
-        Squares square = new Squares(5);
+        Squares square = new Squares(       5);
         System.out.println(square.howToColor());
         System.out.println(square.toString());
     }
