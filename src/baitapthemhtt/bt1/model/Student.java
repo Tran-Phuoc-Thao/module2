@@ -1,4 +1,4 @@
-package baitapthemhtt.bt1;
+package baitapthemhtt.bt1.model;
 
 
 import java.util.ArrayList;

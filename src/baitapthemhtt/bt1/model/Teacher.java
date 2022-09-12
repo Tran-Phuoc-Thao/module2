@@ -1,4 +1,4 @@
-package baitapthemhtt.bt1;
+package baitapthemhtt.bt1.model;
 
 import java.util.Scanner;
 
@@ -60,7 +60,7 @@ public class Teacher {
 
     @Override
     public String toString() {
-        return "Teacher{" +
+        return  "{" +
                 "ma='" + ma + '\'' +
                 ", ten='" + ten + '\'' +
                 ", ngaysinh='" + ngaysinh + '\'' +
