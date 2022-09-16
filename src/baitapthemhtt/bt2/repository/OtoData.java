@@ -5,7 +5,7 @@ import baitapthemhtt.bt2.model.Oto;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OtoData implements IPhuongTienGiaoThongRep {
+public class OtoData implements IPhuongTienGiaoThongRep<Oto> {
     public List<Oto> oto = new ArrayList<>();
 
     public void them(Oto newoto) {

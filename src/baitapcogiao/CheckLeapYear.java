@@ -21,7 +21,7 @@
             Scanner scanner = new Scanner(System.in);
             System.out.println("nhập năm bạn muốn kiểm tra");
             int year = Integer.parseInt(scanner.nextLine());
-            if (check(year)== true) System.out.println("năm bạn vừa nhập là năm nhuận");
+            if (check(year)) System.out.println("năm bạn vừa nhập là năm nhuận");
             else System.out.println("năm bạn vừa nhập không phải năm nhuận");
 
             }

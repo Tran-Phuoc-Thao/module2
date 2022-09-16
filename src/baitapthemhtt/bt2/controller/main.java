@@ -62,7 +62,7 @@ public class main {
                         kieuxe = scanner.nextLine();
 
                         Oto oto = new Oto(bienKiemSoat, tenhang, namsanxuat, chusohuu, chongoi, kieuxe);
-                        otoService.themMoiOto(oto);
+                        otoService.them(oto);
                     }
 
                     if (number1 == 2) {
@@ -145,7 +145,7 @@ public class main {
 
                         System.out.println("Nhập biển kiểm soát cần xóa");
                         bienKiemSoat=Integer.parseInt(scanner.nextLine());
-                        otoService.removeOto(bienKiemSoat);
+                        otoService.xoa(bienKiemSoat);
 
                     }
                     if (number1==2){
@@ -171,7 +171,7 @@ public class main {
 
                         System.out.println("Nhập biển kiểm soát cần tìm");
                         bienKiemSoat=Integer.parseInt(scanner.nextLine());
-                        otoService.searchOto(bienKiemSoat);
+                        otoService.search(bienKiemSoat);
 
                     }
                     if (number1==2){

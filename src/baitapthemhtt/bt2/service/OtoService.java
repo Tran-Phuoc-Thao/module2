@@ -5,10 +5,10 @@ import baitapthemhtt.bt2.repository.OtoData;
 
 import java.util.List;
 
-public class OtoService {
+public class OtoService implements IPhuongTienGiaoThongServ<Oto> {
     OtoData otoData=new OtoData();
 
-    public void themMoiOto(Oto oto){
+    public void them(Oto oto){
         otoData.them(oto);
     }
 
@@ -16,11 +16,11 @@ public class OtoService {
         return otoData.findALL();
     }
 
-    public void removeOto(int bienKiemSoat){
+    public void xoa(int bienKiemSoat){
         otoData.xoa(bienKiemSoat);
     }
 
-    public void searchOto(int bienKiemSoat){
+    public void search(int bienKiemSoat){
         otoData.search(bienKiemSoat);
     }
 }
