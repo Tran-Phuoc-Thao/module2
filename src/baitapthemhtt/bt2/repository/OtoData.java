@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class OtoData implements IPhuongTienGiaoThongRep<Oto> {
-    public List<Oto> oto = new ArrayList<>();
+    private List<Oto> oto = new ArrayList<>();
 
     public void them(Oto newoto) {
         oto.add(newoto);
